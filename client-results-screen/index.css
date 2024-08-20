@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    color: #444;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  h1 {
+    color: #ff6f61;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  #fetch-button {
+    background-color: #ffcb42;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+  }
+
+  #fetch-button:hover {
+    background-color: #ffa726;
+  }
+
+  #data-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .match-result, .history h3 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ff6f61;
+    padding-bottom: 5px;
+  }
+
+  .item, .match-result, .history div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fbeee6;
+    border: 1px solid #ffcb42;
+  }
+
+  .item img, .match-result img, .history div img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid #ff6f61;
+  }
+
+  .item p, .match-result p, .history div p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .history h3 {
+    margin-top: 30px;
+  }
+
+  .winner {
+    font-weight: bold;
+    color: #26de81;
+  }
+
+  .loser {
+    font-weight: bold;
+    color: #fc5c65;
+  }
+
+  .tie {
+    font-weight: bold;
+    color: #fd9644;
+  }
